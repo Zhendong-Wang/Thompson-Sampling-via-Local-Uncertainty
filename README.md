@@ -10,7 +10,8 @@ Please, use the following when citing the code or the paper:
 title={Thompson Sampling via Local Uncertainty},
 author={Wang, Zhendong and Zhou, Mingyuan},
 journal={International Conference on Machine Learning, ICML.}, 
-year={2020}}
+year={2020}
+}
 ```
 
 ## Dependencies
