@@ -1,11 +1,8 @@
 # Thompson Sampling via Local Uncertainty
 
 This repo corresponds to the *[Thompson Sampling via Local Uncertainty](https://arxiv.org/pdf/1910.13673.pdf)* paper, published in
-[ICML](https://icml.cc/) 2020. We provide a benchmark to test decision-making
-algorithms for contextual-bandits. In particular, the current library implements
-a variety of algorithms (many of them based on approximate Bayesian Neural
-Networks and Thompson sampling), and a number of real and syntethic data
-problems exhibiting a diverse set of properties.
+[ICML](https://icml.cc/) 2020. We propose a new probabilistic modeling framework for Thompson sampling, where local latent variable uncertainty is used to sample the mean reward. We implemented our algorithms LU-Gauss/SIVI based on the [benchmark](https://github.com/tensorflow/models/tree/master/research/deep_contextual_bandits)
+
 
 It is a Python library that uses [TensorFlow](https://www.tensorflow.org/).
 
