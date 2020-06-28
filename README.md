@@ -6,9 +6,11 @@ This repo corresponds to the *[Thompson Sampling via Local Uncertainty](https://
 Please, use the following when citing the code or the paper:
 
 ```
-@article{zhendong2020luts, title={Thompson Sampling via Local Uncertainty},
+@article{zhendong2020luts, 
+title={Thompson Sampling via Local Uncertainty},
 author={Wang, Zhendong and Zhou, Mingyuan},
-journal={International Conference on Machine Learning, ICML.}, year={2020}}
+journal={International Conference on Machine Learning, ICML.}, 
+year={2020}}
 ```
 
 ## Dependencies
@@ -21,7 +23,7 @@ You can download the required dataset from the benckmark.
 
 ## Training
 
-You can run comparison of all algorithms from *run_bandit.py* file. 
+You can run comparison of all algorithms from *run_bandit.py* file, with one argument for a specific dataset. It will save the output results in one *.npz* file. 
 
 ```
     python run_bandit.py mushroom
