@@ -27,7 +27,7 @@ You can download the required dataset from the benckmark.
 You can run comparison of all algorithms from *run_bandit.py* file, with one argument for a specific dataset. It will save the output results in one *.npz* file. 
 
 ```
-    python run_bandit.py mushroom
+    python run_bandit.py -dataset='mushroom'
 ```
 
 ## Acknowledgement
