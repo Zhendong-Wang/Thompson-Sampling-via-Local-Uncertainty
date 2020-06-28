@@ -1,9 +1,7 @@
-# Deep Bayesian Bandits Library
+# Thompson Sampling via Local Uncertainty
 
-This library corresponds to the *[Deep Bayesian Bandits Showdown: An Empirical
-Comparison of Bayesian Deep Networks for Thompson
-Sampling](https://arxiv.org/abs/1802.09127)* paper, published in
-[ICLR](https://iclr.cc/) 2018. We provide a benchmark to test decision-making
+This repo corresponds to the *[Thompson Sampling via Local Uncertainty](https://arxiv.org/pdf/1910.13673.pdf)* paper, published in
+[ICML](https://icml.cc/) 2020. We provide a benchmark to test decision-making
 algorithms for contextual-bandits. In particular, the current library implements
 a variety of algorithms (many of them based on approximate Bayesian Neural
 Networks and Thompson sampling), and a number of real and syntethic data
