@@ -471,7 +471,8 @@ def run_iter():
 
         VariationalSampling_v4('LU_Gaussian', hparams_luga), #6
 
-        VariationalSamplingSivi_dgf_v7("LU_SIVI", hparams_sivi1), #7
+        # A smaller learning rate like 3e-4 or 1e-4 will work better on the 'mushroom' dataset for LU_SIVI and LU_Gaussian
+        VariationalSamplingSivi_dgf_v7("LU_SIVI", hparams_sivi1), #7 
 
         # For Ablation Study
 
